@@ -1,0 +1,24 @@
+{
+  "name": "chatbot_example",
+  "version": "1.0.0",
+  "description": "This DialogFlow (API.AI) Chatbot example using - Webhook, NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suvankar-git/Node_ChatBot.git"
+  },
+  "keywords": [
+    "Node_ChatBot"
+  ],
+  "author": "Suvankar Bhattacharya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
